@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using HarmonyLib;
 using UnityEngine;
 
-using TOHL.Roles.Core;
+using TownOfHost.Roles.Core;
 
-namespace TOHL
+namespace TownOfHost
 {
     //参考元 : https://github.com/ykundesu/SuperNewRoles/blob/master/SuperNewRoles/Mode/SuperHostRoles/BlockTool.cs
     class DisableDevice

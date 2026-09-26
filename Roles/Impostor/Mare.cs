@@ -1,11 +1,11 @@
 using AmongUs.GameOptions;
 using Hazel;
 
-using TOHL.Roles.Core;
-using TOHL.Roles.Core.Interfaces;
-using static TOHL.Options;
+using TownOfHost.Roles.Core;
+using TownOfHost.Roles.Core.Interfaces;
+using static TownOfHost.Options;
 
-namespace TOHL.Roles.Impostor;
+namespace TownOfHost.Roles.Impostor;
 
 public sealed class Mare : RoleBase, IImpostor
 {

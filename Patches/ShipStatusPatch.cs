@@ -4,10 +4,10 @@ using System.Linq;
 using HarmonyLib;
 using UnityEngine;
 
-using TOHL.Roles.Core;
+using TownOfHost.Roles.Core;
 using Hazel;
 
-namespace TOHL
+namespace TownOfHost
 {
     [HarmonyPatch(typeof(ShipStatus), nameof(ShipStatus.FixedUpdate))]
     class ShipFixedUpdatePatch

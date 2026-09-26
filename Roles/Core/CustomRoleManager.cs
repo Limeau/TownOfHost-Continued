@@ -6,11 +6,11 @@ using Hazel;
 using Il2CppSystem.Text;
 
 using AmongUs.GameOptions;
-using TOHL.Attributes;
-using TOHL.Roles.Core.Interfaces;
-using TOHL.Roles.AddOns.Common;
+using TownOfHost.Attributes;
+using TownOfHost.Roles.Core.Interfaces;
+using TownOfHost.Roles.AddOns.Common;
 
-namespace TOHL.Roles.Core;
+namespace TownOfHost.Roles.Core;
 
 public static class CustomRoleManager
 {

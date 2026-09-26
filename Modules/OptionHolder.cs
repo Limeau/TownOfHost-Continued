@@ -5,15 +5,15 @@ using System.Threading.Tasks;
 using HarmonyLib;
 using UnityEngine;
 
-using TOHL.Modules;
-using TOHL.Roles;
-using TOHL.Roles.Core;
-using TOHL.Roles.AddOns.Common;
-using TOHL.Roles.AddOns.Impostor;
-using TOHL.Roles.AddOns.Crewmate;
-using TOHL.Modules.OptionItems;
+using TownOfHost.Modules;
+using TownOfHost.Roles;
+using TownOfHost.Roles.Core;
+using TownOfHost.Roles.AddOns.Common;
+using TownOfHost.Roles.AddOns.Impostor;
+using TownOfHost.Roles.AddOns.Crewmate;
+using TownOfHost.Modules.OptionItems;
 
-namespace TOHL
+namespace TownOfHost
 {
     [Flags]
     public enum CustomGameMode

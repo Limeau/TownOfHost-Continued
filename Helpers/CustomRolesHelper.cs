@@ -1,9 +1,9 @@
 using System.Linq;
 using AmongUs.GameOptions;
 
-using TOHL.Roles.Core;
+using TownOfHost.Roles.Core;
 
-namespace TOHL
+namespace TownOfHost
 {
     static class CustomRolesHelper
     {

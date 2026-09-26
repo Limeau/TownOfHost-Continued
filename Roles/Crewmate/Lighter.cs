@@ -1,7 +1,7 @@
 using AmongUs.GameOptions;
-using TOHL.Roles.Core;
+using TownOfHost.Roles.Core;
 
-namespace TOHL.Roles.Crewmate;
+namespace TownOfHost.Roles.Crewmate;
 public sealed class Lighter : RoleBase
 {
     public static readonly SimpleRoleInfo RoleInfo =

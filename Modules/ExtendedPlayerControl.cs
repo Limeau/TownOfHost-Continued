@@ -7,14 +7,14 @@ using Hazel;
 using InnerNet;
 using UnityEngine;
 
-using TOHL.Modules;
-using TOHL.Roles.Core;
-using TOHL.Roles.Core.Interfaces;
-using TOHL.Roles.Impostor;
-using TOHL.Roles.AddOns.Impostor;
-using static TOHL.Translator;
+using TownOfHost.Modules;
+using TownOfHost.Roles.Core;
+using TownOfHost.Roles.Core.Interfaces;
+using TownOfHost.Roles.Impostor;
+using TownOfHost.Roles.AddOns.Impostor;
+using static TownOfHost.Translator;
 
-namespace TOHL
+namespace TownOfHost
 {
     static class ExtendedPlayerControl
     {

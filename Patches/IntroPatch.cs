@@ -5,10 +5,10 @@ using AmongUs.GameOptions;
 using HarmonyLib;
 using UnityEngine;
 
-using TOHL.Roles.Core;
-using static TOHL.Translator;
+using TownOfHost.Roles.Core;
+using static TownOfHost.Translator;
 
-namespace TOHL
+namespace TownOfHost
 {
     [HarmonyPatch(typeof(IntroCutscene), nameof(IntroCutscene.CoBegin))]
     class SetUpRoleTextCoBeginPatch
@@ -172,7 +172,7 @@ namespace TOHL
             {
                 __instance.TeamTitle.text = Main.ModName;
                 __instance.ImpostorText.gameObject.SetActive(true);
-                __instance.ImpostorText.text = "https://github.com/tukasa0001/TOHL" +
+                __instance.ImpostorText.text = "https://github.com/tukasa0001/TownOfHost" +
                     "\r\nOut Now on Github";
                 __instance.TeamTitle.color = Color.cyan;
                 StartFadeIntro(__instance, Color.cyan, Color.yellow);

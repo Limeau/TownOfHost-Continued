@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 using UnityEngine;
 
-using TOHL.Attributes;
-using TOHL.Roles.Core;
-using TOHL.Roles.Core.Interfaces;
+using TownOfHost.Attributes;
+using TownOfHost.Roles.Core;
+using TownOfHost.Roles.Core.Interfaces;
 
-namespace TOHL
+namespace TownOfHost
 {
     public static class DoubleTrigger
     {

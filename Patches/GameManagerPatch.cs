@@ -1,7 +1,7 @@
 using HarmonyLib;
 using Hazel;
 
-namespace TOHL
+namespace TownOfHost
 {
     [HarmonyPatch(typeof(GameManager), nameof(GameManager.Serialize))]
     class GameManagerSerializeFix

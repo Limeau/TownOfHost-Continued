@@ -1,4 +1,4 @@
-namespace TOHL.Roles.Core.Interfaces;
+namespace TownOfHost.Roles.Core.Interfaces;
 
 public interface IDeathReasonSeeable
 {

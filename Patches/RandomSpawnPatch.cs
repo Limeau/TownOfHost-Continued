@@ -5,10 +5,10 @@ using HarmonyLib;
 using Hazel;
 using UnityEngine;
 
-using TOHL.Roles.Core;
-using TOHL.Roles.Impostor;
+using TownOfHost.Roles.Core;
+using TownOfHost.Roles.Impostor;
 
-namespace TOHL
+namespace TownOfHost
 {
     public enum SpawnPoint
     {

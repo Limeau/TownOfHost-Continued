@@ -1,9 +1,9 @@
-using TOHL.Attributes;
-using TOHL.Roles.Core;
-using TOHL.Roles.Core.Interfaces;
-using static TOHL.Options;
+using TownOfHost.Attributes;
+using TownOfHost.Roles.Core;
+using TownOfHost.Roles.Core.Interfaces;
+using static TownOfHost.Options;
 
-namespace TOHL.Roles.AddOns.Impostor
+namespace TownOfHost.Roles.AddOns.Impostor
 {
     public static class LastImpostor
     {

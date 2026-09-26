@@ -1,8 +1,8 @@
 using AmongUs.GameOptions;
 
-using TOHL.Roles.Core;
+using TownOfHost.Roles.Core;
 
-namespace TOHL.Roles.Neutral;
+namespace TownOfHost.Roles.Neutral;
 public sealed class Jester : RoleBase
 {
     public static readonly SimpleRoleInfo RoleInfo =

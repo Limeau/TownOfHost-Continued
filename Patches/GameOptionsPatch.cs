@@ -1,10 +1,10 @@
 using AmongUs.GameOptions;
 using HarmonyLib;
 
-using TOHL.Roles.Core;
-using static TOHL.Translator;
+using TownOfHost.Roles.Core;
+using static TownOfHost.Translator;
 
-namespace TOHL
+namespace TownOfHost
 {
     [HarmonyPatch(typeof(RoleOptionSetting), nameof(RoleOptionSetting.UpdateValuesAndText))]
     class ChanceChangePatch

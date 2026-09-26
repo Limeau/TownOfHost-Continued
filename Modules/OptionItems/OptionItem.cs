@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using TOHL.Modules;
+using TownOfHost.Modules;
 using UnityEngine;
 
-namespace TOHL
+namespace TownOfHost
 {
     public abstract class OptionItem
     {

@@ -1,6 +1,6 @@
 using AmongUs.GameOptions;
 
-namespace TOHL.Roles.Core.Descriptions;
+namespace TownOfHost.Roles.Core.Descriptions;
 
 /// <summary>
 /// バニラ役職の説明文

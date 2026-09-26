@@ -2,7 +2,7 @@ using AmongUs.Data;
 using HarmonyLib;
 using UnityEngine;
 
-namespace TOHL
+namespace TownOfHost
 {
     [HarmonyPatch(typeof(ChatController), nameof(ChatController.Update))]
     class ChatControllerUpdatePatch

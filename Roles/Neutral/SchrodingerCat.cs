@@ -6,11 +6,11 @@ using UnityEngine;
 using AmongUs.GameOptions;
 using Hazel;
 
-using TOHL.Modules;
-using TOHL.Roles.Core;
-using TOHL.Roles.Core.Interfaces;
+using TownOfHost.Modules;
+using TownOfHost.Roles.Core;
+using TownOfHost.Roles.Core.Interfaces;
 
-namespace TOHL.Roles.Neutral;
+namespace TownOfHost.Roles.Neutral;
 
 // マッドが属性化したらマッド状態時の特別扱いを削除する
 public sealed class SchrodingerCat : RoleBase, IAdditionalWinner, IDeathReasonSeeable, IKillFlashSeeable

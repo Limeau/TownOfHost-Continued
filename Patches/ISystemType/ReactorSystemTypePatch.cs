@@ -1,9 +1,9 @@
 using HarmonyLib;
 using Hazel;
-using TOHL.Roles.Core;
-using TOHL.Roles.Core.Interfaces;
+using TownOfHost.Roles.Core;
+using TownOfHost.Roles.Core.Interfaces;
 
-namespace TOHL.Patches.ISystemType;
+namespace TownOfHost.Patches.ISystemType;
 
 [HarmonyPatch(typeof(ReactorSystemType), nameof(ReactorSystemType.UpdateSystem))]
 public static class ReactorSystemTypeUpdateSystemPatch

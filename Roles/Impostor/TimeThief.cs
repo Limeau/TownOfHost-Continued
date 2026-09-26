@@ -1,9 +1,9 @@
 using AmongUs.GameOptions;
 
-using TOHL.Roles.Core;
-using TOHL.Roles.Core.Interfaces;
+using TownOfHost.Roles.Core;
+using TownOfHost.Roles.Core.Interfaces;
 
-namespace TOHL.Roles.Impostor
+namespace TownOfHost.Roles.Impostor
 {
     public sealed class TimeThief : RoleBase, IMeetingTimeAlterable, IImpostor
     {

@@ -1,9 +1,9 @@
 using Hazel;
 
-using TOHL.Roles.Core;
-using TOHL.Roles.Impostor;
+using TownOfHost.Roles.Core;
+using TownOfHost.Roles.Impostor;
 
-namespace TOHL
+namespace TownOfHost
 {
     public static class NameColorManager
     {

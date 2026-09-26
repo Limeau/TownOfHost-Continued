@@ -1,4 +1,4 @@
-namespace TOHL.Roles.Core.Interfaces;
+namespace TownOfHost.Roles.Core.Interfaces;
 
 /// <summary>
 /// キルボタンのシングルクリック、ダブルクリックで機能を変えられるようにするためのインターフェース

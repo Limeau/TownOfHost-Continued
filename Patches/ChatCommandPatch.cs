@@ -6,10 +6,10 @@ using Assets.CoreScripts;
 using HarmonyLib;
 using Hazel;
 
-using TOHL.Roles.Core;
-using static TOHL.Translator;
+using TownOfHost.Roles.Core;
+using static TownOfHost.Translator;
 
-namespace TOHL
+namespace TownOfHost
 {
     [HarmonyPatch(typeof(ChatController), nameof(ChatController.SendChat))]
     class ChatCommands

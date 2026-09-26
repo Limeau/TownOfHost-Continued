@@ -1,9 +1,9 @@
 using System;
 using System.Linq;
 using System.Collections.Generic;
-using TOHL.Roles.Core;
+using TownOfHost.Roles.Core;
 
-namespace TOHL.Modules;
+namespace TownOfHost.Modules;
 
 public class MeetingVoteManager
 {

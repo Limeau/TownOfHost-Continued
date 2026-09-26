@@ -1,8 +1,8 @@
-using TOHL.Modules.OptionItems.Interfaces;
-using TOHL.Roles.Core;
+using TownOfHost.Modules.OptionItems.Interfaces;
+using TownOfHost.Roles.Core;
 using UnityEngine;
 
-namespace TOHL.Modules.OptionItems;
+namespace TownOfHost.Modules.OptionItems;
 
 public sealed class RoleSpawnChanceOptionItem : IntegerOptionItem, IRoleOptionItem
 {

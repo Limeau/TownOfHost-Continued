@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using TOHL.Modules;
+using TownOfHost.Modules;
 
-namespace TOHL.Attributes;
+namespace TownOfHost.Attributes;
 
 [AttributeUsage(AttributeTargets.Method)]
 public abstract class InitializerAttribute<T> : Attribute
@@ -27,7 +27,7 @@ public abstract class InitializerAttribute<T> : Attribute
     {
         var initializers = new HashSet<InitializerAttribute<T>>(32);
 
-        // TOHL.dll内の
+        // TownOfHost.dll内の
         var assembly = Assembly.GetExecutingAssembly();
         // 全クラス内の
         var types = assembly.GetTypes();

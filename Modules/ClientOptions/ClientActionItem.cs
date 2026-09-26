@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace TOHL.Modules.ClientOptions;
+namespace TownOfHost.Modules.ClientOptions;
 public class ClientActionItem
 {
     public ToggleButtonBehaviour ToggleButton { get; private set; }

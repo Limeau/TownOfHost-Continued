@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using TOHL.Attributes;
+using TownOfHost.Attributes;
 using UnityEngine;
 
-namespace TOHL
+namespace TownOfHost
 {
     static class TargetArrow
     {

@@ -1,7 +1,7 @@
 using AmongUs.GameOptions;
-using TOHL.Roles.Neutral;
+using TownOfHost.Roles.Neutral;
 
-namespace TOHL.Roles.Core.Interfaces;
+namespace TownOfHost.Roles.Core.Interfaces;
 
 /// <summary>
 /// インポスターのインタフェイス<br/>

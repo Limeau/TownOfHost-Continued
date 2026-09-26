@@ -6,7 +6,7 @@ using System.Text;
 using UnityEngine;
 using AmongUs.GameOptions;
 
-namespace TOHL.Modules;
+namespace TownOfHost.Modules;
 
 public static class OptionSerializer
 {

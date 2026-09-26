@@ -1,9 +1,9 @@
 using System;
 using HarmonyLib;
-using TOHL.Templates;
+using TownOfHost.Templates;
 using UnityEngine;
 
-namespace TOHL
+namespace TownOfHost
 {
     [HarmonyPatch(typeof(MainMenuManager))]
     public class MainMenuManagerPatch
@@ -37,7 +37,7 @@ namespace TOHL
                     new(1f, -1f, 1f),
                     new(153, 153, 153, byte.MaxValue),
                     new(209, 209, 209, byte.MaxValue),
-                    () => Application.OpenURL("https://github.com/tukasa0001/TOHL"),
+                    () => Application.OpenURL("https://github.com/tukasa0001/TownOfHost"),
                     "GitHub");
             }
 

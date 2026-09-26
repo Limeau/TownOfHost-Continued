@@ -1,7 +1,7 @@
 using HarmonyLib;
 using Hazel;
 
-namespace TOHL.Patches.ISystemType;
+namespace TownOfHost.Patches.ISystemType;
 
 [HarmonyPatch(typeof(SecurityCameraSystemType), nameof(SecurityCameraSystemType.UpdateSystem))]
 public static class SecurityCameraSystemTypeUpdateSystemPatch

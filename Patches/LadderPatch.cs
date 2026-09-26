@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using HarmonyLib;
-using TOHL.Attributes;
+using TownOfHost.Attributes;
 using UnityEngine;
 
-namespace TOHL
+namespace TownOfHost
 {
     public class FallFromLadder
     {

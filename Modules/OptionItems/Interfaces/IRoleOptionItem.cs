@@ -1,7 +1,7 @@
-using TOHL.Roles.Core;
+using TownOfHost.Roles.Core;
 using UnityEngine;
 
-namespace TOHL.Modules.OptionItems.Interfaces;
+namespace TownOfHost.Modules.OptionItems.Interfaces;
 
 public interface IRoleOptionItem
 {

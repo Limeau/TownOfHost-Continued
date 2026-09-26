@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using Hazel;
 
-using TOHL.Attributes;
-using TOHL.Roles.Core;
+using TownOfHost.Attributes;
+using TownOfHost.Roles.Core;
 
-namespace TOHL
+namespace TownOfHost
 {
     public static class CustomWinnerHolder
     {

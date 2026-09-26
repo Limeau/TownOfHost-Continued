@@ -1,4 +1,4 @@
-namespace TOHL
+namespace TownOfHost
 {
     public class HashRandomWrapper : IRandom
     {

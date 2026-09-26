@@ -2,13 +2,13 @@ using System;
 using System.Linq;
 using AmongUs.GameOptions;
 using HarmonyLib;
-using TOHL.Modules.OptionItems;
-using TOHL.Modules.OptionItems.Interfaces;
+using TownOfHost.Modules.OptionItems;
+using TownOfHost.Modules.OptionItems.Interfaces;
 using UnityEngine;
-using static TOHL.Translator;
+using static TownOfHost.Translator;
 using Object = UnityEngine.Object;
 
-namespace TOHL
+namespace TownOfHost
 {
     [HarmonyPatch(typeof(GameSettingMenu))]
     public static class GameSettingMenuPatch
@@ -104,11 +104,11 @@ namespace TOHL
 
             // 各カテゴリまでスクロールするボタンを作成
             var jumpButtonY = -0.6f;
-            var jumpToMainButton = CreateJumpToCategoryButton(__instance, tohSettingsTab, "TOHL.Resources.TabIcon_MainSettings.png", ref jumpButtonY, MainCategoryHeader);
-            var jumpToImpButton = CreateJumpToCategoryButton(__instance, tohSettingsTab, "TOHL.Resources.TabIcon_ImpostorRoles.png", ref jumpButtonY, ImpostorRoleCategoryHeader);
-            var jumpToCrewButton = CreateJumpToCategoryButton(__instance, tohSettingsTab, "TOHL.Resources.TabIcon_CrewmateRoles.png", ref jumpButtonY, CrewmateRoleCategoryHeader);
-            var jumpToNeutralButton = CreateJumpToCategoryButton(__instance, tohSettingsTab, "TOHL.Resources.TabIcon_NeutralRoles.png", ref jumpButtonY, NeutralRoleCategoryHeader);
-            var jumpToAddOnButton = CreateJumpToCategoryButton(__instance, tohSettingsTab, "TOHL.Resources.TabIcon_Addons.png", ref jumpButtonY, AddOnCategoryHeader);
+            var jumpToMainButton = CreateJumpToCategoryButton(__instance, tohSettingsTab, "TownOfHost.Resources.TabIcon_MainSettings.png", ref jumpButtonY, MainCategoryHeader);
+            var jumpToImpButton = CreateJumpToCategoryButton(__instance, tohSettingsTab, "TownOfHost.Resources.TabIcon_ImpostorRoles.png", ref jumpButtonY, ImpostorRoleCategoryHeader);
+            var jumpToCrewButton = CreateJumpToCategoryButton(__instance, tohSettingsTab, "TownOfHost.Resources.TabIcon_CrewmateRoles.png", ref jumpButtonY, CrewmateRoleCategoryHeader);
+            var jumpToNeutralButton = CreateJumpToCategoryButton(__instance, tohSettingsTab, "TownOfHost.Resources.TabIcon_NeutralRoles.png", ref jumpButtonY, NeutralRoleCategoryHeader);
+            var jumpToAddOnButton = CreateJumpToCategoryButton(__instance, tohSettingsTab, "TownOfHost.Resources.TabIcon_Addons.png", ref jumpButtonY, AddOnCategoryHeader);
         }
         private static MapSelectButton CreateJumpToCategoryButton(GameSettingMenu __instance, GameOptionsMenu tohTab, string resourcePath, ref float localY, CategoryHeaderMasked jumpTo)
         {
@@ -166,7 +166,7 @@ namespace TOHL
             }
         }
 
-        public const string TOHMenuName = "TOHLTab";
+        public const string TOHMenuName = "TownOfHostTab";
     }
 
     [HarmonyPatch(typeof(GameOptionsMenu), nameof(GameOptionsMenu.Initialize))]

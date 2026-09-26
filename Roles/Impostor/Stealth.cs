@@ -2,12 +2,12 @@ using System.Collections.Generic;
 using System.Linq;
 using AmongUs.GameOptions;
 using Hazel;
-using TOHL.Modules;
-using TOHL.Roles.Core;
-using TOHL.Roles.Core.Interfaces;
+using TownOfHost.Modules;
+using TownOfHost.Roles.Core;
+using TownOfHost.Roles.Core.Interfaces;
 using UnityEngine;
 
-namespace TOHL.Roles.Impostor;
+namespace TownOfHost.Roles.Impostor;
 
 public sealed class Stealth : RoleBase, IImpostor
 {

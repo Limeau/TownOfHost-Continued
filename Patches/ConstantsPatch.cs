@@ -1,6 +1,6 @@
 using HarmonyLib;
 
-namespace TOHL.Patches;
+namespace TownOfHost.Patches;
 
 [HarmonyPatch(typeof(Constants), nameof(Constants.GetBroadcastVersion))]
 public static class ConstantsGetBroadcastVersionPatch

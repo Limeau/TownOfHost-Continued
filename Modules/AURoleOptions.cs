@@ -1,6 +1,6 @@
 using AmongUs.GameOptions;
 
-namespace TOHL
+namespace TownOfHost
 {
     public static class AURoleOptions
     {

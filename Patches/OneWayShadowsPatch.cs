@@ -1,7 +1,7 @@
 using HarmonyLib;
-using TOHL.Roles.Core;
+using TownOfHost.Roles.Core;
 
-namespace TOHL;
+namespace TownOfHost;
 
 [HarmonyPatch(typeof(OneWayShadows), nameof(OneWayShadows.IsIgnored))]
 public static class OneWayShadowsIsIgnoredPatch

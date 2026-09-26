@@ -2,10 +2,10 @@ using System.Linq;
 
 using AmongUs.GameOptions;
 
-using TOHL.Roles.Core;
-using TOHL.Roles.Core.Interfaces;
+using TownOfHost.Roles.Core;
+using TownOfHost.Roles.Core.Interfaces;
 
-namespace TOHL.Roles.Madmate;
+namespace TownOfHost.Roles.Madmate;
 
 public sealed class MadSnitch : RoleBase, IKillFlashSeeable, IDeathReasonSeeable
 {

@@ -1,6 +1,6 @@
 using HarmonyLib;
 
-namespace TOHL
+namespace TownOfHost
 {
     [HarmonyPatch(typeof(AmongUsClient), nameof(AmongUsClient.OnDisconnected))]
     class OnDisconnectedPatch

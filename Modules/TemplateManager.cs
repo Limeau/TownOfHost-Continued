@@ -6,10 +6,10 @@ using System.Text;
 using System.Text.RegularExpressions;
 using AmongUs.Data;
 using HarmonyLib;
-using TOHL.Attributes;
-using static TOHL.Translator;
+using TownOfHost.Attributes;
+using static TownOfHost.Translator;
 
-namespace TOHL
+namespace TownOfHost
 {
     public static class TemplateManager
     {

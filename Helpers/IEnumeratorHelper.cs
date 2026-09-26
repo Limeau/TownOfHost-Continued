@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using BepInEx.Unity.IL2CPP.Utils.Collections;
 using Il2CppInterop.Runtime;
 
-namespace TOHL;
+namespace TownOfHost;
 
 public class CoroutinPatcher
 {

@@ -1,7 +1,7 @@
 using System;
-using TOHL.Roles.Core;
+using TownOfHost.Roles.Core;
 
-namespace TOHL
+namespace TownOfHost
 {
     public class StringOptionItem : OptionItem
     {

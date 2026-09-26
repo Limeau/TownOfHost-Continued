@@ -1,11 +1,11 @@
 using System;
 using System.Linq;
 using System.Collections.Generic;
-using TOHL.Roles.Core;
-using static TOHL.Options;
-using static TOHL.Translator;
+using TownOfHost.Roles.Core;
+using static TownOfHost.Options;
+using static TownOfHost.Translator;
 
-namespace TOHL.Roles.AddOns.Common
+namespace TownOfHost.Roles.AddOns.Common
 {
     public class AddOnsAssignData
     {

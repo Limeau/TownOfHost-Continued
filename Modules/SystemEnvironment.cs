@@ -1,6 +1,6 @@
 using System;
 
-namespace TOHL.Modules;
+namespace TownOfHost.Modules;
 
 public static class SystemEnvironment
 {

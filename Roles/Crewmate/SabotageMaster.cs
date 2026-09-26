@@ -1,10 +1,10 @@
 using System.Linq;
 using AmongUs.GameOptions;
 
-using TOHL.Roles.Core;
-using TOHL.Roles.Core.Interfaces;
+using TownOfHost.Roles.Core;
+using TownOfHost.Roles.Core.Interfaces;
 
-namespace TOHL.Roles.Crewmate;
+namespace TownOfHost.Roles.Crewmate;
 
 public sealed class SabotageMaster : RoleBase, ISystemTypeUpdateHook
 {

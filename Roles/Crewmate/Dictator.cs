@@ -1,9 +1,9 @@
 using AmongUs.GameOptions;
 
-using TOHL.Modules;
-using TOHL.Roles.Core;
+using TownOfHost.Modules;
+using TownOfHost.Roles.Core;
 
-namespace TOHL.Roles.Crewmate;
+namespace TownOfHost.Roles.Crewmate;
 public sealed class Dictator : RoleBase
 {
     public static readonly SimpleRoleInfo RoleInfo =

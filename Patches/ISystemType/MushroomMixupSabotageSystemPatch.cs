@@ -1,7 +1,7 @@
 using HarmonyLib;
 using Hazel;
 
-namespace TOHL.Patches.ISystemType;
+namespace TownOfHost.Patches.ISystemType;
 
 [HarmonyPatch(typeof(MushroomMixupSabotageSystem), nameof(MushroomMixupSabotageSystem.UpdateSystem))]
 public static class MushroomMixupSabotageSystemUpdateSystemPatch

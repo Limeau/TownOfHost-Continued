@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 
-namespace TOHL.Modules;
+namespace TownOfHost.Modules;
 
 public static class OptionSaver
 {

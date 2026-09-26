@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using TOHL.Attributes;
+using TownOfHost.Attributes;
 
-namespace TOHL
+namespace TownOfHost
 {
     static class PlayerOutfitExtension
     {

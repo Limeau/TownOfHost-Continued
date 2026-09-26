@@ -1,9 +1,9 @@
 using System.Linq;
 using HarmonyLib;
 using UnityEngine;
-using TOHL.Modules;
+using TownOfHost.Modules;
 
-namespace TOHL
+namespace TownOfHost
 {
     [HarmonyPatch(typeof(ControllerManager), nameof(ControllerManager.Update))]
     class ControllerManagerUpdatePatch

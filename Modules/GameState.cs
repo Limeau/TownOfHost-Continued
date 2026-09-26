@@ -4,10 +4,10 @@ using System.Linq;
 using AmongUs.GameOptions;
 using HarmonyLib;
 
-using TOHL.Attributes;
-using TOHL.Roles.Core;
+using TownOfHost.Attributes;
+using TownOfHost.Roles.Core;
 
-namespace TOHL
+namespace TownOfHost
 {
     public class PlayerState
     {

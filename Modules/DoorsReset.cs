@@ -1,6 +1,6 @@
-using TOHL.Attributes;
+using TownOfHost.Attributes;
 
-namespace TOHL.Modules;
+namespace TownOfHost.Modules;
 
 public static class DoorsReset
 {

@@ -1,9 +1,9 @@
 using System.Linq;
 using AmongUs.GameOptions;
 
-using TOHL.Roles.Core;
+using TownOfHost.Roles.Core;
 
-namespace TOHL.Roles.Neutral;
+namespace TownOfHost.Roles.Neutral;
 
 public sealed class Terrorist : RoleBase
 {
